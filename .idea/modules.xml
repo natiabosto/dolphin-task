@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dolphin-wizard.iml" filepath="$PROJECT_DIR$/.idea/dolphin-wizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebstormProjects/dolphin-wizard/.idea/dolphin-wizard.iml" filepath="$PROJECT_DIR$/../WebstormProjects/dolphin-wizard/.idea/dolphin-wizard.iml" />
     </modules>
   </component>
 </project>
