@@ -1,13 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41313539-6387-40a3-aa04-e7aa1f6a963a" name="Default Changelist" comment="" />
+    <list default="true" id="41313539-6387-40a3-aa04-e7aa1f6a963a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BannerStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientStep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/adAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/adReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1foeyzuevEwbdgiBFka50JHN1Kk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +47,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebstormProjects/bostic.ge" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bosto\dolphin-wizard\src\redux" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,11 +68,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596889130419</updated>
-      <workItem from="1596889134044" duration="654000" />
+      <workItem from="1596889134044" duration="4895000" />
+      <workItem from="1596965607384" duration="4832000" />
+      <workItem from="1597005302098" duration="6919000" />
+      <workItem from="1597044839136" duration="16350000" />
+      <workItem from="1597073100346" duration="23000000" />
+      <workItem from="1597096524165" duration="31413000" />
+      <workItem from="1597128337756" duration="389000" />
+      <workItem from="1597163412619" duration="1247000" />
+      <workItem from="1597430310440" duration="1239000" />
+      <workItem from="1597672260754" duration="82000" />
+      <workItem from="1598274973833" duration="14000" />
+      <workItem from="1598340235393" duration="1814000" />
+      <workItem from="1598514068125" duration="3234000" />
+      <workItem from="1598801208062" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#File_Watchers" timestamp="1597072719641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#File_Watchers/0.0.1366.728@0.0.1366.728" timestamp="1597072719641" />
+    <state x="779" y="177" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596891197992">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="779" y="177" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1596891197992" />
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596969081595">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596969081595" />
+    <state x="322" y="163" key="EditFileWatcherDialog" timestamp="1597070559918">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="322" y="163" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1597070559918" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1596975232770">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596975232770" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1597434172674">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597434172674" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1597434172673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597434172673" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1597434172673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597434172673" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1597434172673">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597434172673" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1597128190067">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597128190067" />
+    <state x="334" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597102892142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="334" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1597102892142" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597104114403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597104114403" />
+    <state x="390" y="120" width="586" height="488" key="find.popup" timestamp="1598812212008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="120" width="586" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598812212008" />
   </component>
 </project>

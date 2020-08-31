@@ -1,0 +1,250 @@
+$break-s: 450px;
+$break-m: 750px;
+$break-l: 1080px;
+
+:root {
+  --font-s: 8px;
+  --font-m: 10px;
+  --font-l: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding: 5vh 5vw;
+  background-color: lightgray;
+
+  .App {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 3px darkgray;
+    padding: 5vh 5vw 14vh 5vw;
+  }
+}
+
+
+/*stepper*/
+.MuiStepper-root {
+  padding: 24px 5vw !important;
+}
+
+@media (min-width: $break-s) {
+  .MuiStepper-root {
+    padding: 24px 10vw !important;
+  }
+}
+
+@media (min-width: $break-m) {
+  .MuiStepper-root {
+    padding: 24px 20vw !important;
+  }
+}
+
+.steps-info-container {
+  text-align: center;
+
+  /*client & banners*/
+  .client-heading,
+  .banners-heading {
+    width: 60vw;
+    padding: 20px 20px 15px 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #f5f5f5;
+    margin: 0 auto 20px auto;
+  }
+
+  /*client*/
+  .client-step-container,
+  {
+    .client-left-info,
+    .client-right-info {
+      width: 80vw;
+    }
+
+    @media (min-width: $break-m) {
+      .client-left-info,
+      .client-right-info {
+        width: 39vw !important;
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+
+    @media (min-width: $break-m) {
+      .client-right-info {
+        border-left: 1px solid #f5f5f5;
+      }
+    }
+
+    .client-input {
+      width: 55%;
+      margin: 10px auto !important;
+
+      label {
+        font-size: 14px;
+      }
+
+      input, div, span {
+        font-size: 16px;
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+        color: #656565;
+      }
+    }
+  }
+
+  /*banners*/
+  .banners-step-container {
+    height: 100px !important;
+  }
+}
+
+.banner-input {
+  width: 70%;
+  margin: 2px auto !important;
+
+  input, div, span {
+    font-size: 16px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #656565;
+  }
+}
+
+.add-banner-container {
+  padding: 0 0 5vh 0;
+  margin: 7vh 0 5vh 0;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+}
+
+.new-banner-heading {
+  width: 75vw;
+  display: block;
+  text-align: center;
+  margin: 25px auto 0 auto;
+  color: rgb(123, 123, 123);
+}
+
+.new-advertisement-button {
+  width: 70%;
+  margin: 40px auto 20px auto !important;
+}
+
+.banners-list-heading {
+  width: 75vw;
+  text-align: left;
+  margin: 30px auto 15px auto;
+}
+
+.grid-banner-container {
+  padding: 15px;
+
+  .banner-info-container,
+  .banner-tools-container {
+    width: 100%;
+  }
+
+  .banner-tools-container {
+    text-align: right;
+  }
+
+  @media (min-width: $break-s) {
+    .banner-info-container,
+    .banner-tools-container {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .banner-info-container {
+      width: 59%;
+    }
+    .banner-tools-container {
+      width: 39%;
+    }
+  }
+
+  .banner-info-container {
+    .text-container {
+      margin: 0 0 20px 10px;
+      text-align: left;
+
+      h3, h4 {
+        margin: 3px 0;
+        color: dimgray;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+.banner-image-container {
+  width: 20%;
+  padding-top: 20%;
+  border: 1px dashed lightgray;
+}
+
+.tool-icon {
+  font-size: 17px !important;
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.modal-div {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+
+.modal {
+  background-color: white;
+  width: 90vw;
+  margin: 10vh auto 0 auto;
+  border-radius: 2px;
+  padding: 20px;
+  text-align: center;
+}
+
+.modal-buttons-container {
+  text-align: right;
+  padding-top: 25px;
+
+  button {
+    margin-left: 5px;
+  }
+}
+
+.stepper-buttons-container {
+  text-align: right;
+  padding-top: 50px;
+}
+
+.empty-ad-label {
+  text-align: center;
+  width: 72vw;
+  padding: 4vw;
+  border: 1px dashed gray;
+  margin: 0 auto;
+}
+
+.MuiGrid-spacing-xs-3 {
+  width: 100% !important;
+  margin: 0 !important;
+}
