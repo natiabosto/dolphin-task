@@ -12,7 +12,7 @@ const store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <App/>უსე
+        <App/>
     </Provider>,
     document.getElementById('root')
 );
